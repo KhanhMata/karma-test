@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BannerInlineComponent implements OnInit {
 
   title = "Banner";
+  htmlSnippet = 'Template <script>alert("abc")</script> <b>Syntax</b>';
 
   constructor() { }
 
